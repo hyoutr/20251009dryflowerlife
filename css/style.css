@@ -114,15 +114,31 @@ Introduction
 }
 
 /* Works セクション */
-.work-list{
-    display: flex;
-    flex-wrap:wrap;
+
+
+#works {
+    margin-bottom: 120px;
 }
-.works-list li {
+#works .works-list{
+    display: flex;
+    flex-wrap: wrap;
+}
+#works .works-list li {
   width: 32%;
-  margin-right: 2%;
+  margin: 0 2% 2% 0;
+} 
+#works .works-list li:nth-child(3n) {
+  margin-right: 0;
 }
 
-.works-list li:nth-child(3n) {
-  margin-right: 0;
+/*----------------------------------------
+Footer
+----------------------------------------*/
+footer{
+    font-size: 12px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+footer .copyright {
+    font-size: 1em;
 }
